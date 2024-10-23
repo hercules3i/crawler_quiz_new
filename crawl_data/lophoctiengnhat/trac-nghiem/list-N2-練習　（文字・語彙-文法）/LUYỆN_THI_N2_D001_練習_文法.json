@@ -1,0 +1,953 @@
+{
+    "ID": null,
+    "SubjectName": "問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+    "Title": "問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+    "ExamName": "LUYỆN THI N2 - D001 練習　（文法）",
+    "Error": false,
+    "Object": {
+        "isAlreadyDone": false,
+        "details": [
+            {
+                "Id": 1,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />1. 昨日は台風で電車が止まり、学校へ行く（　　　　）ではなかった。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e12bdeb-9117-11ef-826e-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "d93974a2-5a61-47c7-91e9-1d53d086623e",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_1\">どころ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "どころ",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "d0895b46-805b-414f-bebe-8594112b28da",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_1\">もの</span>",
+                        "Type": "Text",
+                        "ContentDecode": "もの",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "68dd4640-8390-464e-ac4a-05cf5d1c4683",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_1\">べき</span>",
+                        "Type": "Text",
+                        "ContentDecode": "べき",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "60cbe3eb-3958-40f5-a6a8-18204a2f5d00",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_1\">はず</span>",
+                        "Type": "Text",
+                        "ContentDecode": "はず",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 2,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />2. コップに口をつけるか（　　　　　）かのうちに、もう水を飲み終えていた。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e130bff-9117-11ef-9604-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "075ba0a2-3e35-4f03-86cc-62a801e32d26",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_2\">つけた</span>",
+                        "Type": "Text",
+                        "ContentDecode": "つけた",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "40dcd867-0156-498e-b05f-5aea5923a1a0",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_2\">つけない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "つけない",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "caacc4a2-aada-4328-8c6f-236029efd469",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_2\">つけよう</span>",
+                        "Type": "Text",
+                        "ContentDecode": "つけよう",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "c4fbdc40-2c47-4694-9f45-3e72bc81a2e6",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_2\">つく</span>",
+                        "Type": "Text",
+                        "ContentDecode": "つく",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 3,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />3. 私の夫は、お酒（　　　　　）飲まなければ良い夫なのに。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e13330b-9117-11ef-b0bd-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "9ea471c2-181d-4ed9-a669-80dc7b5bb8d7",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_3\">のみ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "のみ",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "d0fe4c70-9f4d-432a-8ab6-6a6d516c4c00",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_3\">しか</span>",
+                        "Type": "Text",
+                        "ContentDecode": "しか",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "ef7ce7ed-b97b-4c96-9f3d-d85161ad5741",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_3\">だに</span>",
+                        "Type": "Text",
+                        "ContentDecode": "だに",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "579bf73d-d350-4b99-8d88-0b3d50e0141d",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_3\">さえ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "さえ",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 4,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />4. さんざん悩み（　　　　　）、今の会社を辞めることにした。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e13812b-9117-11ef-8280-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "bcee43fe-bb39-47b8-b6a5-1a4421e7d95f",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_4\">結果</span>",
+                        "Type": "Text",
+                        "ContentDecode": "結果",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "7f2783f7-d2f1-43b7-8969-7d1681e9fba1",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_4\">かけて</span>",
+                        "Type": "Text",
+                        "ContentDecode": "かけて",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "525d4992-5525-4637-8097-b04587e2e89a",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_4\">あげく</span>",
+                        "Type": "Text",
+                        "ContentDecode": "あげく",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "edb24585-dd04-4a84-8bfa-f8400ed25c86",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_4\">ぬいて</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ぬいて",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 5,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />5. 人生とは、なかなか思い（　　　　　）にはいかないものだ。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e13a843-9117-11ef-bf27-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "fbff912e-9f6e-44bb-9d13-5301077adcf5",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_5\">よう</span>",
+                        "Type": "Text",
+                        "ContentDecode": "よう",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "8f1e7a7f-286e-4335-b618-705d692e34c1",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_5\">どおり</span>",
+                        "Type": "Text",
+                        "ContentDecode": "どおり",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "2ba7b8a9-5770-4937-9473-96899788c1bb",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_5\">きり</span>",
+                        "Type": "Text",
+                        "ContentDecode": "きり",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "611d6b65-3a0f-4cc0-a099-51f57b12f958",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_5\">まま</span>",
+                        "Type": "Text",
+                        "ContentDecode": "まま",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 6,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />6. あの人は頭が良い（　　　　　）性格も良くて、皆に尊敬されている。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e13f64b-9117-11ef-a9f1-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "6de8189b-c0dc-4802-bb0b-fbfc24e807cb",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_6\">うえに</span>",
+                        "Type": "Text",
+                        "ContentDecode": "うえに",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "9e79da19-5e50-482a-8a3d-cbe97ef50dc2",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_6\">かわりに</span>",
+                        "Type": "Text",
+                        "ContentDecode": "かわりに",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f4183c72-870a-4a5a-9d33-3de3e2e3cde8",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_6\">ければ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ければ",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "712ced09-7ed5-4002-8140-a1b000943618",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_6\">わりに</span>",
+                        "Type": "Text",
+                        "ContentDecode": "わりに",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 7,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />7. 寒い日が続いた（　　　　　）、桜の花がなかなか咲かない。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e141d58-9117-11ef-a45b-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "6dc00269-a0fe-4757-b0a2-4ba643dcb3ba",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_7\">ところで</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ところで",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "fa8b6b4b-617b-44e3-bdfd-68e9fd17d092",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_7\">からには</span>",
+                        "Type": "Text",
+                        "ContentDecode": "からには",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "a631c620-e69d-451a-b800-2a4f098f423e",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_7\">せいか</span>",
+                        "Type": "Text",
+                        "ContentDecode": "せいか",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "395a9375-9ab4-45bb-a113-792923086a6f",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_7\">にしては</span>",
+                        "Type": "Text",
+                        "ContentDecode": "にしては",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 8,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />8. 時間がなくあわてた（　　　　　）、さいふを忘れてきた。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e144456-9117-11ef-9635-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "4d4cc386-16ab-4add-b1b6-164cd319954b",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_8\">あまり</span>",
+                        "Type": "Text",
+                        "ContentDecode": "あまり",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "2b5049ae-32b0-41ef-9037-0050e168c5ed",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_8\">ことだから</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ことだから",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "37edf495-6203-4102-b537-00dd9e618542",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_8\">ことに</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ことに",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "d31968c1-5b00-41ff-abcf-d27ea42177e5",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_8\">ものか</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ものか",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 9,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />9. おたずねの件に（　　　　　）は、私からご説明させていただきます。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e149267-9117-11ef-91d0-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "9ae67699-7f3b-469c-8f11-f9c44a9a5dce",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_9\">よって</span>",
+                        "Type": "Text",
+                        "ContentDecode": "よって",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "366dc3ef-22b4-4b3a-877e-f5e932c3c868",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_9\">関して</span>",
+                        "Type": "Text",
+                        "ContentDecode": "関して",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "67168e8e-8cac-45a7-ad6f-8a1a48a25aee",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_9\">とって</span>",
+                        "Type": "Text",
+                        "ContentDecode": "とって",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "4ef9bce4-ad2c-4f7d-9d7d-b963a36e4d03",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_9\">あたって</span>",
+                        "Type": "Text",
+                        "ContentDecode": "あたって",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 10,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />10. あなたの無事を知って、どんなに安心した（　　　　　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e14e079-9117-11ef-a6d8-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "77169166-2e56-4f0b-89b1-cda036058868",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_10\">かは</span>",
+                        "Type": "Text",
+                        "ContentDecode": "かは",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "28184050-9106-46f0-a189-eea9686ec636",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_10\">ものか</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ものか",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "16442772-da15-4422-9e64-785ed0ae8245",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_10\">ことか</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ことか",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "7c036df4-86eb-4cdc-841b-325a6ed0ae67",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_10\">とは</span>",
+                        "Type": "Text",
+                        "ContentDecode": "とは",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 11,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />11. この薬は人に（　　　　　）、効かないことがあります。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e15078e-9117-11ef-beab-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "e6b0d0c9-2d18-43be-813f-9b7c474f9afb",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_11\">限らず</span>",
+                        "Type": "Text",
+                        "ContentDecode": "限らず",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "44eaf78d-ee01-4680-9aeb-1731a6cd8c0b",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_11\">対して</span>",
+                        "Type": "Text",
+                        "ContentDecode": "対して",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "0652627d-3710-4fca-af6e-8bab90802b2b",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_11\">とっては</span>",
+                        "Type": "Text",
+                        "ContentDecode": "とっては",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "831813bf-f50c-4654-911c-6cc8cb17f8bc",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_11\">よっては</span>",
+                        "Type": "Text",
+                        "ContentDecode": "よっては",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 12,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />12. なぜ突然涙が出てきたのかわからない。ただ急に彼女がかわいそう（　　　　　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e15558b-9117-11ef-adff-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "ac55a316-72bf-402d-bfe4-c301a6580c10",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_12\">ではないかと思った</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ではないかと思った",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "129a0682-f57f-4ea6-be02-c7aa336ebeec",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_12\">でならなくなった</span>",
+                        "Type": "Text",
+                        "ContentDecode": "でならなくなった",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "fc152017-1042-4609-b826-a96a0399dc7e",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_12\">で止められなくなった</span>",
+                        "Type": "Text",
+                        "ContentDecode": "で止められなくなった",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "8b096ba0-c941-46a0-bc1e-4326fc1c124a",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_12\">と思えなくなった</span>",
+                        "Type": "Text",
+                        "ContentDecode": "と思えなくなった",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 13,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />13. この曲を聞くたびに自由で楽しかった学生時代を思い出す。それに（　　　　　）今の生活のなんと余裕のないことか。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e157c9e-9117-11ef-a6d5-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "5ea3d6d4-a955-4ec1-bf57-34bd09d262d9",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_13\">沿っても</span>",
+                        "Type": "Text",
+                        "ContentDecode": "沿っても",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "88fc1dc9-be8f-46c2-ba3b-dc6dd393cd8e",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_13\">ともない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ともない",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "de384ff1-0207-48b4-a715-d3fcfd20920b",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_13\">つき</span>",
+                        "Type": "Text",
+                        "ContentDecode": "つき",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "1705eb63-80a5-49e8-8b98-84fc5221a2b2",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_13\">つけても</span>",
+                        "Type": "Text",
+                        "ContentDecode": "つけても",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 14,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />14. 明日ストライキで交通機関がストップするというなら、家から会社まで歩いて行く（　　　　　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e15caba-9117-11ef-845f-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "1912629e-eac0-4cf4-a3e4-3c37ad0d5cdd",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_14\">ことがあるまい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ことがあるまい",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "de76c582-e274-457a-b4a5-40cee7d41134",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_14\">しかあるまい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "しかあるまい",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "30631810-71b8-4e82-a064-0162f7cd9931",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_14\">はずがあるまい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "はずがあるまい",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "d848f9fe-a5f2-43eb-ae8c-a2a5a7afc985",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_14\">わけがあるまい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "わけがあるまい",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 15,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />15. いくら給料日だからと言って、こんな高級ホテルのレストランでごちそうになる（　　　　　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e1618c8-9117-11ef-8f23-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "f2d1aec1-0188-480d-a93c-365f0d129f3b",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_15\">わけにはいかない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "わけにはいかない",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "176b4eab-0b04-46ef-bae6-7896c20464c5",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_15\">べきではない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "べきではない",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "12142c29-e2bd-4a61-b1bc-5afd6d2f8683",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_15\">ことではない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "ことではない",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "31d3733a-af77-4d4d-b50b-55d24a5695c0",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_15\">わけではない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "わけではない",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 16,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />16. 最近の若い人たちは、就職してもすぐ会社を辞めてしまう。一生同じ企業に勤めるのが当然という日本的な考え方が（　　　　　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e163fd2-9117-11ef-91ed-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "8735b54c-4b84-4e8e-b3cc-2e7c1612a75e",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_16\">くずれつつあることだ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "くずれつつあることだ",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "c2b93193-5911-43ed-84a2-64704b527271",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_16\">くずれてきているはずだ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "くずれてきているはずだ",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "edcf912e-37cb-43d3-b4a1-edef991868b0",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_16\">くずれてきているものだ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "くずれてきているものだ",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "93a55162-2546-4592-9d31-27874f5f3b0a",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_16\">くずれつつあるわけだ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "くずれつつあるわけだ",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 17,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />17. 道路で左右を見なかったばかりに（　　　　　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e168df2-9117-11ef-a06c-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "74af39fb-a9b4-4f1c-915f-728650c389dd",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_17\">事故の恐れがある</span>",
+                        "Type": "Text",
+                        "ContentDecode": "事故の恐れがある",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "29dab359-faf6-469b-b3b9-59933cdb1738",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_17\">事故にあわずにすんだ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "事故にあわずにすんだ",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "ef401778-4963-4ec9-aa91-09d65367dd12",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_17\">事故が起こるかもしれない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "事故が起こるかもしれない",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "833045a1-ebae-4826-a47a-ac31f520cd5b",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_17\">事故にあってしまった</span>",
+                        "Type": "Text",
+                        "ContentDecode": "事故にあってしまった",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 18,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />18. この料理は、初めて作ったにしては（　　　　　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e16dbfa-9117-11ef-9dac-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "ee4d8db6-ac3d-4bcd-945d-6f0fdb523fc7",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_18\">うまくできた</span>",
+                        "Type": "Text",
+                        "ContentDecode": "うまくできた",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "e1f30751-668a-450e-8cd4-17385e67f08e",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_18\">失敗するかもしれない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "失敗するかもしれない",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "d9d2a181-3cee-40a7-b4b5-889d3da5cb07",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_18\">うまくできそうだ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "うまくできそうだ",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "12d896ea-b2fb-4a02-8895-ae41360b17cd",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_18\">失敗してしまった</span>",
+                        "Type": "Text",
+                        "ContentDecode": "失敗してしまった",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 19,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />19. 彼は何も知らないくせに、何でも（　　　　　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e175125-9117-11ef-8f78-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "1cc9a983-ef43-44e5-ada9-43adf28e18d0",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_19\">知っているわけではない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "知っているわけではない",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "123c4779-fe97-4874-9bc9-f0dec842f5c4",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_19\">知るはずがない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "知るはずがない",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "6d7799e4-eea7-4e95-827c-9622da221180",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_19\">知っていると思っている</span>",
+                        "Type": "Text",
+                        "ContentDecode": "知っていると思っている",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "c026d7d7-0ccb-4124-94be-e63e7158e615",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_19\">知りたがる</span>",
+                        "Type": "Text",
+                        "ContentDecode": "知りたがる",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 20,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "<p>問題　（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</p><br />20. うちの子どもに限って、そんなことを（　　　　　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "1e179f38-9117-11ef-879c-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "9615093e-dc1c-4457-bb22-6075b232a5cd",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_20\">やりそうだ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "やりそうだ",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "7ff8d6d2-2eb2-43cd-8719-1bd3e8c6d89d",
+                        "Answer": "<span class=\"answer jp-22 d\" rel=\"cauhoi1_0_20\">するわけがない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "するわけがない",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "45d0c8b9-f357-4d82-8bd7-54d54c3c7d01",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_20\">x するかもしれない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "x するかもしれない",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "22cb38f6-3b4e-4fa4-9319-392f99e1cff6",
+                        "Answer": "<span class=\"answer jp-22\" rel=\"cauhoi1_0_20\">しないこともない</span>",
+                        "Type": "Text",
+                        "ContentDecode": "しないこともない",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            }
+        ]
+    },
+    "Code": "88999161-5b95-4c1a-9fdb-e965724a6060"
+}
