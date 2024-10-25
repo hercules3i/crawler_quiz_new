@@ -27,9 +27,12 @@ actionChains = ActionChains(browser)
 def handle_redirect_to_result_page(url):
     browser.get(url)
     time.sleep(2)
-    get_result_btn = browser.find_element(By.XPATH, '/html/body/div[1]/section/div[2]/div/div/div/div/div[1]/div[1]/div/div/article/div/div/form/input[3]')
-    print(get_result_btn.tag_name)
-    browser.execute_script("arguments[0].click();", get_result_btn)    
+    try:
+        get_result_btn = browser.find_element(By.XPATH, '/html/body/div[1]/section/div[2]/div/div/div/div/div[1]/div[1]/div/div/article/div/div/form/input[3]')
+        print(get_result_btn.tag_name)
+        browser.execute_script("arguments[0].click();", get_result_btn)    
+    except Exception:
+        print("Ex:",url)
     time.sleep(0.25)
     page_html = browser.page_source
     with open('result_page.html', 'w', encoding='utf-8') as file:
@@ -76,29 +79,32 @@ def handle_exam_detail_html(dir_path: str, exam_name: str, url: str):
     content_detail = doc('form.quiz-form *')
 
     if content_detail:
+        quizzes = []
         questions = [] 
-
+        tr_count = 0
+        div_tracnghiem_count = 0
+        current_title = "Kiem tra tieng nhat vnjpclub"
         for child in content_detail:
             
             child_pq = pq(child)
-            if "tracnghiem" in str(child_pq):
+            if "tracnghiem" in str(child_pq) and child.tag == "div" and child_pq.attr("class") == "tracnghiem":
+                div_tracnghiem_count += 1
+                questions.append(child_pq)
                 number_question = child_pq('#question .bai_stt').text().strip().replace("問", "").strip()
 
                 # Lấy nội dung câu hỏi
                 question = child_pq('#question b').text().strip()
                 answer_list = []
-                answers_doc = child_pq("#table_tracnghiem")
+                answers_doc = child_pq("#table_tracnghiem *")
                 # Duyệt qua từng hàng trong bảng
-                count = 0
                 for index in range(1, 5): 
-                    count += 1
-                    answer_html = f'<input type="radio" name="answer[1]" id="answer_{index}"> {answers_doc(f"tr.tr{index} td span").text().strip()}'
-                    answer_text = answers_doc(f"td#table_tracnghiem span").text().strip()
-
+                    tr_count += 1
+                    answer_text = answers_doc(f"tr#table_tracnghiem.tr{tr_count} span").text().strip()
+                    answer_text = " ".join(dict.fromkeys(answer_text.split()))
+                    answer_html = f'<span style="font-size: 15px">{answer_text}</span>'
                     # Kiểm tra nếu thẻ span có id là result_correct_{index} có thẻ img
-                    result_correct_id = f"result_correct_{index}{count}"
-                    is_answer = bool(answers_doc(f"tr.tr{index} td span#{result_correct_id} img"))
-
+                    result_correct_id = f"result_correct_{div_tracnghiem_count}{index}"
+                    is_answer = bool(answers_doc(f"tr.tr{tr_count} td span#{result_correct_id} img"))
                     answer_list.append({
                         'Code': str(uuid.uuid4()),  # Tạo UUID
                         'Answer': answer_html,
@@ -106,11 +112,39 @@ def handle_exam_detail_html(dir_path: str, exam_name: str, url: str):
                         'ContentDecode': answer_text,
                         'IsAnswer': is_answer
                     })
-
-                # In ra danh sách đáp án
+                               # In ra danh sách đáp án
                 for answer in answer_list:
                     print(answer)
-                break
+                
+                quiz = {
+                    'Id': len(quizzes) + 1,
+                    'Order': "40",
+                    'Duration': 10,
+                    'Unit': "MINUTE",
+                    'Mark': 10,
+                    'Content': question,
+                    'Solve': {
+                        'Solver': '',
+                        'SolveMedia': []
+                    },
+                    'QuestionMedia': [],
+                    'Code': uuid.uuid1(),
+                    'Type': 'QUIZ_SING_CH',
+                    'AnswerData': answer_list,
+                    'IdQuiz': 75,
+                    'UserChoose': None
+                }
+                quizzes.append(quiz)
+
+        if len(quizzes) > 0:
+            store_as_json(
+                file_path,
+                current_title,
+                current_title,
+                exam_name,
+                quizzes
+            )
+
     # for child in exam_contents:
     #     quiz_doc = pq(child)
     #     print(quiz_doc)

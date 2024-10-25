@@ -37,5 +37,4 @@ def exam_all_crawler():
             name = exam["name"]
             link = exam["url"]
             handle_exam_detail_html(dir_path, name, link)
-            break
-        break
+

@@ -1,0 +1,1940 @@
+{
+    "ID": null,
+    "SubjectName": "Kiem tra tieng nhat vnjpclub",
+    "Title": "Kiem tra tieng nhat vnjpclub",
+    "ExamName": "Bài- (48) - 休ませていただけませんか",
+    "Error": false,
+    "Object": {
+        "isAlreadyDone": false,
+        "details": [
+            {
+                "Id": 1,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "おろします",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42980310-92ac-11ef-884d-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "ffca2063-db9b-42d4-993f-cb0a26eab1ab",
+                        "Answer": "<span style=\"font-size: 15px\">a. Nâng lên</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. Nâng lên",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "de30f3d6-c44c-471d-b6e4-356aa4a2ee60",
+                        "Answer": "<span style=\"font-size: 15px\">b. Đẩy ra</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. Đẩy ra",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "7175cc59-35d9-4d93-814b-733ff1da1f2a",
+                        "Answer": "<span style=\"font-size: 15px\">c. Thu lại</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. Thu lại",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "bd1e675a-f3a5-4cb9-bdd2-c47c8717cca9",
+                        "Answer": "<span style=\"font-size: 15px\">d. Cho xuống</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. Cho xuống",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 2,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "スケジュール",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "4299b08c-92ac-11ef-82e5-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "c25c79fc-2dc7-4d60-aafc-2c96286dd2f3",
+                        "Answer": "<span style=\"font-size: 15px\">a. Bảng kế hoạch</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. Bảng kế hoạch",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "2cb2f9a7-21d9-4296-9d92-0a5bff0af90e",
+                        "Answer": "<span style=\"font-size: 15px\">b. Bảng điều tra</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. Bảng điều tra",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "e39f39ca-d77c-4869-957f-6090723476c2",
+                        "Answer": "<span style=\"font-size: 15px\">c. Thời khóa biểu</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. Thời khóa biểu",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "105a7c10-dd6e-4b1e-a505-5a4baea5881d",
+                        "Answer": "<span style=\"font-size: 15px\">d. Bảng tổng kết</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. Bảng tổng kết",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 3,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "せいと",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "429c211a-92ac-11ef-b885-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "c9c19b81-d382-4355-a44b-0e27ae9ea611",
+                        "Answer": "<span style=\"font-size: 15px\">a. Giáo sư</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. Giáo sư",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "723e23c4-7a72-454e-b03a-c9551d6fccee",
+                        "Answer": "<span style=\"font-size: 15px\">b. Học sinh</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. Học sinh",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "1a28906e-1a4d-425e-8886-64c28b670ef0",
+                        "Answer": "<span style=\"font-size: 15px\">c. Bạn bè</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. Bạn bè",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "3d613e26-435b-494e-9faf-a1b336764fde",
+                        "Answer": "<span style=\"font-size: 15px\">d. Nha sĩ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. Nha sĩ",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 4,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "せいき",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "429e6ab2-92ac-11ef-8e21-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "bf361b9e-a50c-4900-8e3a-c1db972297a8",
+                        "Answer": "<span style=\"font-size: 15px\">a. Năm mới</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. Năm mới",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "deb9f90e-cad8-40ac-ad4d-94530049f29f",
+                        "Answer": "<span style=\"font-size: 15px\">b. Thế kỷ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. Thế kỷ",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "bd5ab08c-1b7f-4db2-a563-89f5018d6b9c",
+                        "Answer": "<span style=\"font-size: 15px\">c. Ngày lễ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. Ngày lễ",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "c0c71a67-f862-420a-97bf-556ab5ef6921",
+                        "Answer": "<span style=\"font-size: 15px\">d. Kỷ niệm</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. Kỷ niệm",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 5,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "じゅく",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42a08d4d-92ac-11ef-bbc6-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "baf45ac0-faf7-4d18-bb03-c3507827c909",
+                        "Answer": "<span style=\"font-size: 15px\">a. Trung tâm mua sắm</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. Trung tâm mua sắm",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "762b27ec-f1d1-46fb-a330-a48c39031ec2",
+                        "Answer": "<span style=\"font-size: 15px\">b. Cơ sở sản suất</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. Cơ sở sản suất",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "469c041e-f493-4766-b46c-da0342c180cc",
+                        "Answer": "<span style=\"font-size: 15px\">c. Trung tâm học thêm</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. Trung tâm học thêm",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "6ac421df-4e5c-45ad-bb1d-8fb96ea9220d",
+                        "Answer": "<span style=\"font-size: 15px\">d. Tiệm bảo hành</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. Tiệm bảo hành",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 6,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "Vốn dĩ",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42a2afe5-92ac-11ef-a055-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "d084c929-c721-4b26-9125-1e03379d20c3",
+                        "Answer": "<span style=\"font-size: 15px\">a. もどもど</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. もどもど",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "d7278fc7-460d-4830-a4ea-6bd8c096f913",
+                        "Answer": "<span style=\"font-size: 15px\">b. たすます</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. たすます",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "ccb8faf4-0e93-4ed2-9688-3cb84d0646af",
+                        "Answer": "<span style=\"font-size: 15px\">c. たまだま</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. たまだま",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f1753ac1-9829-4cf2-9e7c-2c45a06785e6",
+                        "Answer": "<span style=\"font-size: 15px\">d. もともと</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. もともと",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 7,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "Dáng điệu",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42a4ab42-92ac-11ef-b67a-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "36b830cb-e943-486f-8e31-00a5335508d4",
+                        "Answer": "<span style=\"font-size: 15px\">a. すてき</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. すてき",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "a2c64c55-f135-4a8e-b0ca-1a6922fde7e5",
+                        "Answer": "<span style=\"font-size: 15px\">b. すがた</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. すがた",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "2d7b9287-a6a5-4e63-9a86-f3689158e207",
+                        "Answer": "<span style=\"font-size: 15px\">c. すかた</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. すかた",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "b2fa01cc-239d-4222-b158-5bd6b13545bb",
+                        "Answer": "<span style=\"font-size: 15px\">d. すでき</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. すでき",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 8,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "Lâu",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42a6cdda-92ac-11ef-8ebf-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "71b00e64-d0f0-4aba-9e8a-440f601ccfbd",
+                        "Answer": "<span style=\"font-size: 15px\">a. ざんねん</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. ざんねん",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "0f67aff9-9af3-473a-8de7-5fb15e23464d",
+                        "Answer": "<span style=\"font-size: 15px\">b. かねまり</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. かねまり",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "e38cb765-1379-4faa-b294-b515e02bda9c",
+                        "Answer": "<span style=\"font-size: 15px\">c. ひさしぶり</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. ひさしぶり",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "cd1857ec-4f2a-4aea-9cfe-ae81a8eb3fcf",
+                        "Answer": "<span style=\"font-size: 15px\">d. たいへん</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. たいへん",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 9,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "Cục quản lý nhập cảnh",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42a98c88-92ac-11ef-80e9-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "3e9796c9-490a-4e22-9194-f25df1aca2f0",
+                        "Answer": "<span style=\"font-size: 15px\">a. にゅかん</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. にゅかん",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "75455ae6-1896-4cf4-a444-567db09e6780",
+                        "Answer": "<span style=\"font-size: 15px\">b. にゅうかん</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. にゅうかん",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "a936f959-ffda-44c8-8b12-c12299f5f421",
+                        "Answer": "<span style=\"font-size: 15px\">c. にゅうさん</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. にゅうさん",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "6647b621-7488-4280-be2f-5e0737b131f4",
+                        "Answer": "<span style=\"font-size: 15px\">d. かんにゅう</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. かんにゅう",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 10,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "Gởi đến",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42ab8816-92ac-11ef-b119-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "ea92c29e-f24f-42f6-8c10-c307085bb96e",
+                        "Answer": "<span style=\"font-size: 15px\">a. とどせます</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. とどせます",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f58c0095-8e2b-4e5b-a101-ce31038b453a",
+                        "Answer": "<span style=\"font-size: 15px\">b. とどけます</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. とどけます",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "24c86351-236c-415c-9ba8-2e96a1e0c894",
+                        "Answer": "<span style=\"font-size: 15px\">c. まけます</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. まけます",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "de4775d8-64fb-4cb9-baf1-97aa87e1f773",
+                        "Answer": "<span style=\"font-size: 15px\">d. はかせます</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. はかせます",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 11,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "きびしい",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42adaa99-92ac-11ef-8db5-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "cffc5d73-80c7-4e99-88cb-d9c860e0da0c",
+                        "Answer": "<span style=\"font-size: 15px\">a. 寂しい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. 寂しい",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "e33f45c4-6f57-4abd-8986-dda0f8f99732",
+                        "Answer": "<span style=\"font-size: 15px\">b. 険しい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. 険しい",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "94435cdf-abf3-4bc1-b3da-e432a90e9c1c",
+                        "Answer": "<span style=\"font-size: 15px\">c. 楽しい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. 楽しい",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f8a29426-7c0d-46d0-9abb-3a73779fd02d",
+                        "Answer": "<span style=\"font-size: 15px\">d. 厳しい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. 厳しい",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 12,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "えいぎょう",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42afa60d-92ac-11ef-8f14-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "980b071b-442c-47eb-ae0f-2e2439a558b9",
+                        "Answer": "<span style=\"font-size: 15px\">a. 堂業</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. 堂業",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "8e77b083-0c44-4262-bbc6-b76bc5ede22a",
+                        "Answer": "<span style=\"font-size: 15px\">b. 営業</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. 営業",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "dd800495-89f8-4879-a558-8db8c2521eea",
+                        "Answer": "<span style=\"font-size: 15px\">c. 党業</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. 党業",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "373541e8-e33f-4d85-ba8d-f05646173d11",
+                        "Answer": "<span style=\"font-size: 15px\">d. 常業</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. 常業",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 13,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "きょうそう",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42b17a86-92ac-11ef-bf8a-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "41c85312-f076-428e-9898-e7fa43cf6cc6",
+                        "Answer": "<span style=\"font-size: 15px\">a. 競走</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. 競走",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "c3566afd-967e-4545-a5fc-5a55196ffc48",
+                        "Answer": "<span style=\"font-size: 15px\">b. 辨宗</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. 辨宗",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "82a7877f-aa6a-4b37-b2be-3172b04c94f0",
+                        "Answer": "<span style=\"font-size: 15px\">c. 競徒</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. 競徒",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "6830dd79-fad9-4dbb-bd81-0b1e11cb64aa",
+                        "Answer": "<span style=\"font-size: 15px\">d. 辨徒</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. 辨徒",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 14,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "げい",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42b39d09-92ac-11ef-8b69-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "e1064e99-76d1-4159-b697-dcf7bff13948",
+                        "Answer": "<span style=\"font-size: 15px\">a. 脳</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. 脳",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "a98bb886-77ec-4a8d-80d8-92d30693f071",
+                        "Answer": "<span style=\"font-size: 15px\">b. 去</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. 去",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "77a79e20-0669-455f-ae36-78d635d10661",
+                        "Answer": "<span style=\"font-size: 15px\">c. 転</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. 転",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "393a052e-b5cc-4b3f-ba67-f946e26f60ad",
+                        "Answer": "<span style=\"font-size: 15px\">d. 芸</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. 芸",
+                        "IsAnswer": true
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 15,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "せわ",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42b5e69a-92ac-11ef-ae04-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "df29bdcd-d7f3-4fee-aaee-3bde8f1d31fc",
+                        "Answer": "<span style=\"font-size: 15px\">a. 苦語</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. 苦語",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "92575c05-88da-4eb9-b773-7ec19e67bb86",
+                        "Answer": "<span style=\"font-size: 15px\">b. 世話</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. 世話",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "f78d04e8-2981-41a8-bd46-75756db931c2",
+                        "Answer": "<span style=\"font-size: 15px\">c. 世語</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. 世語",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "6d030fc3-c205-4230-864a-ffc31d6a6ba9",
+                        "Answer": "<span style=\"font-size: 15px\">d. 世設</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. 世設",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 16,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "届けます",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42b83038-92ac-11ef-a1ec-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "adcdc92e-cdd1-42bd-b417-2c1a7b710014",
+                        "Answer": "<span style=\"font-size: 15px\">a. とどけます</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. とどけます",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "ddd180df-0977-439e-99c4-42cd0e64af48",
+                        "Answer": "<span style=\"font-size: 15px\">b. もどけます</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. もどけます",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f17385cb-a596-443c-a320-c5e676848ed1",
+                        "Answer": "<span style=\"font-size: 15px\">c. さすげます</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. さすげます",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "eb17fc9b-cca2-46a2-865e-820d8a9dfe25",
+                        "Answer": "<span style=\"font-size: 15px\">d. たちげます</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. たちげます",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 17,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "生徒",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42ba52c3-92ac-11ef-895f-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "c246de8c-a0dd-430a-b156-41ee3b4b65e0",
+                        "Answer": "<span style=\"font-size: 15px\">a. せいとう</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. せいとう",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "b125dd08-d962-4f7a-909b-fb774696058d",
+                        "Answer": "<span style=\"font-size: 15px\">b. せとう</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. せとう",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "357190b8-4688-468e-9bdd-f60a9f75282a",
+                        "Answer": "<span style=\"font-size: 15px\">c. せいと</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. せいと",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "b9bd699c-9b98-4aa3-97a7-9b7c716c1455",
+                        "Answer": "<span style=\"font-size: 15px\">d. せうとう</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. せうとう",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 18,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "心",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42bc4e45-92ac-11ef-97d0-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "ffefecba-2a63-4d2f-b9a4-a6272267f677",
+                        "Answer": "<span style=\"font-size: 15px\">a. げいのう</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. げいのう",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "57570119-02fd-417c-a5ff-994de34f1382",
+                        "Answer": "<span style=\"font-size: 15px\">b. のう</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. のう",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "e2fff7fe-9a4b-4072-8810-2270722a615b",
+                        "Answer": "<span style=\"font-size: 15px\">c. こころ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. こころ",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "d6d75a84-b138-4de3-9778-5caf9d05401f",
+                        "Answer": "<span style=\"font-size: 15px\">d. こごろ</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. こごろ",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 19,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "世紀",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42be97de-92ac-11ef-8fb9-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "cf11270c-bec9-45da-b451-f3a7fa088bbb",
+                        "Answer": "<span style=\"font-size: 15px\">a. せいきい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. せいきい",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "bfcc780b-659d-41ad-8690-160e25ba651e",
+                        "Answer": "<span style=\"font-size: 15px\">b. せきい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. せきい",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "4c749a3c-1574-4d99-9f09-b0ed95a8228a",
+                        "Answer": "<span style=\"font-size: 15px\">c. せいき</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. せいき",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "9ab706e3-ba9c-4725-8966-28fec310b904",
+                        "Answer": "<span style=\"font-size: 15px\">d. さいきい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. さいきい",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 20,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "嫌",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42c12f83-92ac-11ef-b6ab-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "259cb287-1eed-4a61-9e07-1e6c9c32bf2f",
+                        "Answer": "<span style=\"font-size: 15px\">a. きらい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. きらい",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "edb02bec-1a8f-4db7-a9c4-43e80c7c9cef",
+                        "Answer": "<span style=\"font-size: 15px\">b. いか</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. いか",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "ae290c61-93fe-4b86-bfa8-27349e594973",
+                        "Answer": "<span style=\"font-size: 15px\">c. いや</span>",
+                        "Type": "Text",
+                        "ContentDecode": "c. いや",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "92cbdfcc-fc9f-4508-b0f7-5d4d9abbf0e4",
+                        "Answer": "<span style=\"font-size: 15px\">d. からい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "d. からい",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 21,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "ワット\n先生\n（\nせんせい\n）\nの\n教\n（\nおし\n）\nえ\n方\n（\nかた\n）\nは（　）です。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42c28ed8-92ac-11ef-b3ca-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "5230ff84-7d98-4c1c-8072-ea76be75b1aa",
+                        "Answer": "<span style=\"font-size: 15px\">a. 厳しい</span>",
+                        "Type": "Text",
+                        "ContentDecode": "a. 厳しい",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Code": "1848a863-a87c-456a-861e-d270112f3a4a",
+                        "Answer": "<span style=\"font-size: 15px\">b. 大変</span>",
+                        "Type": "Text",
+                        "ContentDecode": "b. 大変",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "36fad8b1-300f-474e-bd3e-1b2716e31b0a",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "91bfbabf-24f7-46df-bc54-c1937a121294",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 22,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "部長\n（\nぶちょう\n）\nの\n所\n（\nところ\n）\nにカタログを（　）\n行\n（\nい\n）\nきます。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42c41542-92ac-11ef-9c41-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "767312d8-14c3-424a-a8ec-a58199d2785d",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "e051e543-455e-4642-ac97-818d49d5307f",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f8e15a64-1aa5-41cb-96d2-b2018987230e",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "d438cd16-0acb-4c44-8178-b05b1a87181b",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 23,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "係\n（\nかかり\n）\nの\n者\n（\nもの\n）\nを\n事務\n（\nじむ\n）\n所\n（\nしょ\n）\nに（　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42c54d7d-92ac-11ef-80c7-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "bbc9dc2b-86f8-47c3-8c6a-445d51395653",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "fc309bb7-2a7d-4a04-a098-34815b9602c6",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "d0cd92f6-ed01-45aa-994c-5e38f674a17a",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "4cfe0897-97d9-4e90-a228-e65d01bb124f",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 24,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "先生\n（\nせんせい\n）\nは\n学生\n（\nがくせい\n）\nに\n自由\n（\nじゆう\n）\nに（　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42c6fae5-92ac-11ef-aadc-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "6b4ffcd7-a98c-4d18-8d2b-558bd9e0046b",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "5fe46b28-f56b-4c06-9a4b-05cc5b4fed83",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "fe2c9e69-6888-4b23-b31d-e9d5ebee7ab8",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "61027c36-8081-4a5e-9cb7-82a19f786ece",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 25,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "A：もう\n遅\n（\nおそ\n）\nいので、\n失礼\n（\nしつれい\n）\nします。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42c80c33-92ac-11ef-a75c-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "326c322e-398b-45e2-bc3a-fa1983c94776",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "8fb84b7d-aa89-4991-86d9-910a29a46d30",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "5ad83ad0-414a-40a1-907f-c15099e4aaf6",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "c57daca4-b3a4-4d36-85f3-773089e4f81a",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 26,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "山田\n（\nやまだ\n）\n部長\n（\nぶちょう\n）\nに\n切符\n（\nきっぷ\n）\nを（　）",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42c9b999-92ac-11ef-a9e0-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "d2923e20-d8ac-4ed3-9380-95633bb94a0e",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "74aa76a8-df25-4478-bdc9-0bf7455b3a0a",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "e1675c65-a0d5-44c4-9ca9-296f2ad832d3",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "2668e291-af87-409f-8359-ba7903674521",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 27,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "熱\n（\nねつ\n）\nがあるので、\n早\n（\nはや\n）\nく（　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42caf214-92ac-11ef-b18a-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "3f46d552-2dbb-4d4c-a7ad-0060f483da57",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "ac656c0a-5652-4f51-b961-8bd6687157e8",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "3b03357e-08d9-4263-a938-b46aed34ca8a",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "83356945-c319-4088-a723-0bc41e089d66",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 28,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "息子\n（\nむすこ\n）\nに\n犬\n（\nいぬ\n）\n（　）\n世話\n（\nせわ\n）\nをさせています。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42cc7855-92ac-11ef-871d-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "ac5387c1-6d17-42d2-b23f-4fbc733f3e7a",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "b20675f6-5473-407f-a8fb-f7a87b05281e",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "68be7a43-1327-49e5-89ce-db7563bc395b",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "35b4ea35-d146-4f66-98d5-9db3b59b9f6f",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 29,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "公園\n（\nこうえん\n）\nで\n子\n（\nこ\n）\nども（　）\n遊\n（\nあそ\n）\nばせます。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42cdfec7-92ac-11ef-a695-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "1e869aaf-b163-456e-9733-7009485565b5",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "69969f70-e49b-4a2f-b357-6e7d11fcbc46",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "dba23d6b-15c7-4a76-b6f2-c63b5b0cb5c9",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "c83f6958-38fd-4bb2-843e-f73b9d6b15d0",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 30,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "部長\n（\nぶちょう\n）\nはミラーさん（　）スピーチをさせました。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42cf36fe-92ac-11ef-8adf-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "a896f886-3864-4052-8b60-38f34d10304b",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "2855a735-944e-4e01-a74b-eafb86772c0e",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "0f8154d6-1ead-404b-be5e-66337e84a092",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "939c6308-e2b0-41c4-9222-59af9226e41e",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 31,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "部長\n（\nぶちょう\n）\nは\n鈴木\n（\nすずき\n）\nさん（　）アメリカへ（　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42d0bd6a-92ac-11ef-b9a2-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "595a08b2-5e67-40bd-895e-644910cb6fd0",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f9ffd997-0410-4651-988d-af88248c313b",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "9a05d92a-2897-449f-b390-08444d0385e3",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "a507ea39-69ba-4fa4-9d74-f9c6695d65d0",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 32,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "わたしは\n毎日\n（\nまいにち\n）\n息子\n（\nむすこ\n）\n（　）\n皿\n（\nさら\n）\nを（　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42d1f5af-92ac-11ef-9bfe-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "2a3ff5c1-e46c-4c16-84e2-49d5f1be90e7",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "737f02a0-3e72-4728-a248-134bd0cd1bdc",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "79f07f85-8f51-46b2-bc8a-38a50d899e58",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "42c32fd7-91a2-4b6d-bd1d-8f8f197d2306",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 33,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "子供\n（\nこども\n）\nのとき、\n父\n（\nちち\n）\nはわたし（　）\n剣道\n（\nけんどう\n）\n（　）（　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42d37c17-92ac-11ef-a4e9-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "c1a4bef1-d357-45f9-8b8d-e9f2640801fc",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "494e73fd-de19-41ee-97a9-ba345ef637eb",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "eb54d74a-16db-4441-a3fd-9eec8c72f25e",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "4f577d44-31cf-4798-8be9-1808ba67c2dc",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 34,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "わたしは\n電車\n（\nでんしゃ\n）\nの\n中\n（\nなか\n）\nでは\n子供\n（\nこども\n）\n（　）（　）います。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42d4b46c-92ac-11ef-a3e1-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "d7d524c7-a6a1-4555-abc3-4055f9f5121c",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "ddc5daf2-b7a3-4d10-bde1-fca6cb8614f7",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "6e5b8f96-a0c3-4b19-b92f-2065e0a92f50",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f055d048-bccf-4a15-98d4-eecd88d49d4d",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 35,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "医者\n（\nいしゃ\n）\nは\n父\n（\nちち\n）\n（　）たばこ（　）（　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42d613b2-92ac-11ef-aa3f-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "55bcef3e-c11a-47d3-8855-0488bc4dcfe2",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "5081c5fb-73b5-445f-8b83-c2d909f43a21",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "e32db92e-9cd7-4d75-b7c4-d775c27ca2c8",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "da93f730-80ff-4e79-b7d2-b951ea8ad74b",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 36,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "わたしは\n子供\n（\nこども\n）\n（　）\n犬\n（\nいぬ\n）\n（　）\n世話\n（\nせわ\n）\nを（　）います。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42d74c0a-92ac-11ef-a8ea-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "273628b2-adf4-4cce-a799-df810d66b8b9",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "7791c5ff-c3af-4503-bef3-b4174317c07a",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f6f00f71-706b-4fbb-948c-512002861bd7",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "e1cf76c6-0b5a-48fe-ada4-f227b1669022",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 37,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "父\n（\nちち\n）\nは\n私\n（\nわたし\n）\nたち（　）\n仕事\n（\nしごと\n）\n（　）（　）。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42d8f97d-92ac-11ef-bd9e-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "34a88059-47d8-4aeb-8201-f6d5c0cfd95b",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "236daee5-88e4-402c-9f02-7e0d52d88340",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "13c3c0a3-da32-4d94-9773-d44058dc2516",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "076cdaa3-5be7-4815-b03a-0f32c710084e",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 38,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "もう\n新幹線\n（\nしんかんせん\n）\nの\n切符\n（\nきっぷ\n）\nを\n買\n（\nか\n）\nいました。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42da7fe8-92ac-11ef-81d3-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "5ad2c674-f01b-4a73-8975-42fc9e899796",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "c3a29575-9700-4143-b579-83f8651acf41",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "db322714-6a7e-47b7-8e5a-e3eaf7057588",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "c59c6c3e-1538-4ecb-8a93-3a11d559eea2",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 39,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "この\n本\n（\nほん\n）\nはとてもいい\n本\n（\nほん\n）\nですね。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42dbb837-92ac-11ef-8db1-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "93593dae-a2ef-46db-ba55-e3d94330f6f2",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "7f923e86-637d-464d-a16a-001a77b56324",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "57c76a25-e630-4ffa-9c52-ac19fdf9fe3f",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "dc178672-b56d-45d7-aeba-775557b5aa72",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 40,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "初\n（\nはじ\n）\nめて\n京都\n（\nきょうと\n）\nへ\n行\n（\nい\n）\nったんですか。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42dd3ea4-92ac-11ef-9765-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "6ffb3072-58b8-4f2e-9430-a9eb131e959a",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "29b8c425-b236-407c-a1dc-7ca3cedc32ab",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "d4d2dc36-f041-4f5a-8dc2-0ddcbfe2729c",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "f8b94ca9-c908-454e-a856-1cb43472083a",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            },
+            {
+                "Id": 41,
+                "Order": "40",
+                "Duration": 10,
+                "Unit": "MINUTE",
+                "Mark": 10,
+                "Content": "ワット\n先生\n（\nせんせい\n）\nは\n寂\n（\nさび\n）\nしいです。",
+                "Solve": {
+                    "Solver": "",
+                    "SolveMedia": []
+                },
+                "QuestionMedia": [],
+                "Code": "42de76e0-92ac-11ef-b0a9-d050992e7660",
+                "Type": "QUIZ_SING_CH",
+                "AnswerData": [
+                    {
+                        "Code": "c09301db-ea7d-4b7b-93dc-33b0b2cf33f1",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "78728e41-f0b2-4b49-af3b-a47128f8a0bd",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "c3e45e15-78a0-4eb3-b451-5e1fa12d7dbc",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Code": "65d7a57b-8a81-4f86-ab87-a1664f953d74",
+                        "Answer": "<span style=\"font-size: 15px\"></span>",
+                        "Type": "Text",
+                        "ContentDecode": "",
+                        "IsAnswer": false
+                    }
+                ],
+                "IdQuiz": 75,
+                "UserChoose": null
+            }
+        ]
+    },
+    "Code": "d36d2ba6-3537-4535-a033-19467a6cfea6"
+}

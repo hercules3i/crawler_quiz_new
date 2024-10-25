@@ -181,6 +181,5 @@ def insert_quiz_by_api(code: str, content: str, subject_code: str, json_data: st
             "RefBlogId": ""
         }
     )
-
     print(response.content.decode('utf-8'))
 
