@@ -117,14 +117,15 @@ def handle_exam_detail_html(dir_path: str, exam_name: str, url: str):
                             # Kiểm tra nếu thẻ span có id là result_correct_{index} có thẻ img
                             result_correct_id = f"result_correct_{div_tracnghiem_count}{index}"
                             is_answer = bool(answers_doc(f"tr.tr{tr_count} td span#{result_correct_id} img"))
-                            answer_list.append({
-                                'Code': str(uuid.uuid4()),  # Tạo UUID
-                                'Answer': answer_html,
-                                'Type': 'Text',
-                                'ContentDecode': answer_text,
-                                'IsAnswer': is_answer
-                            })
-                                    # In ra danh sách đáp án
+                            if answer_text != "" and answer_text!= None:
+                                answer_list.append({
+                                    'Code': str(uuid.uuid4()),  # Tạo UUID
+                                    'Answer': answer_html,
+                                    'Type': 'Text',
+                                    'ContentDecode': answer_text,
+                                    'IsAnswer': is_answer
+                                })
+                                        # In ra danh sách đáp án
                         for answer in answer_list:
                             print(answer)
                         
@@ -162,7 +163,7 @@ def handle_exam_detail_html(dir_path: str, exam_name: str, url: str):
 
 def store_as_json(path: str, subject_name: str, title: str, exam_name: str, quizzes):
     print('Start store json file ', path)
-
+    path = path.replace("\\",'/')
     # Lưu dữ liệu vào file JSON
     with open(path, 'w', encoding='utf-16') as f:
         json.dump(

@@ -79,14 +79,14 @@ def handle_exam_detail_html(dir_path: str, exam_name: str, url: str):
                     answer_text = pq(answer).text()
                     answer_class = pq(answer).attr('class')
                     is_answer = 'd' in answer_class
-
-                    answer_list.append({
-                        'Code': uuid.uuid4(),  # Tạo UUID
-                        'Answer': answer_html,
-                        'Type': 'Text',
-                        'ContentDecode': answer_text,
-                        'IsAnswer': is_answer
-                    })
+                    if answer_text != "" and answer_text!= None:
+                        answer_list.append({
+                            'Code': uuid.uuid4(),  # Tạo UUID
+                            'Answer': answer_html,
+                            'Type': 'Text',
+                            'ContentDecode': answer_text,
+                            'IsAnswer': is_answer
+                        })
 
                 # Lưu vào object (dictionary)
                 quiz = {

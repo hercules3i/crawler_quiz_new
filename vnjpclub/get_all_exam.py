@@ -28,15 +28,15 @@ def exam_all_crawler():
     for index, data in enumerate(all_json_file):
         
         dir_path = data['dir_path']
-        if "list-N45" in dir_path:
-            makedir_if_not_exist(dir_path)
+        # if "list-N45" in dir_path:
+        makedir_if_not_exist(dir_path)
 
-            # Lấy mảng các đối tượng từ khóa 'exams'
-            exams_list = data['exams']
+        # Lấy mảng các đối tượng từ khóa 'exams'
+        exams_list = data['exams']
 
-            # Lặp qua từng đối tượng trong mảng
-            for exam in exams_list:
-                name = exam["name"]
-                link = exam["url"]
-                handle_exam_detail_html(dir_path, name, link)
+        # Lặp qua từng đối tượng trong mảng
+        for exam in exams_list:
+            name = exam["name"]
+            link = exam["url"]
+            handle_exam_detail_html(dir_path, name, link)
 
