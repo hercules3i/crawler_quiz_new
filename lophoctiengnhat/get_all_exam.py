@@ -41,6 +41,5 @@ def exam_all_crawler():
         for exam in exams_list:
             name = exam["name"]
             link = exam["url"]
-            if "D003" in name:
-                handle_exam_detail_html(dir_path, name, link)
+            handle_exam_detail_html(dir_path, name, link)
 

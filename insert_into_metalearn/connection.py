@@ -23,7 +23,7 @@ def create_connection():
     cursor = conn.cursor()
 
     return cursor
-
+create_connection()
 
 def commit():
     global cursor
@@ -31,7 +31,7 @@ def commit():
         create_connection()
 
     cursor.commit()
-
+commit()
 
 def update_subject_management_quiz_length(subject_code: str):
     global cursor
@@ -183,3 +183,32 @@ def insert_quiz_by_api(code: str, content: str, subject_code: str, json_data: st
     )
     print(response.content.decode('utf-8'))
 
+
+import json
+
+# Bước 1: Đọc dữ liệu từ file JSON
+with open('crawl_data/lophoctiengnhat/trac-nghiem/list-N1-JLPT-文字・語彙/LUYỆN_THI_N1_D001_文字語彙_問題_1234.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+# Bước 2: Trích xuất dữ liệu cần thiết và chèn vào database
+exam_code = data.get('ID')  # Mã bài kiểm tra
+exam_title = data.get('Title')
+subject_code = ' LANG-JAPANESE'  # Đặt mã môn học phù hợp
+created_time = '2024-10-26'  # Thời gian tạo bạn muốn sử dụng
+num_quiz = len(data['Object']['details'])
+
+# Chèn tiêu đề bài kiểm tra
+insert_exam_header(exam_code, exam_title, num_quiz, subject_code, created_time)
+
+# Chèn chi tiết bài kiểm tra và câu hỏi
+for detail in data['Object']['details']:
+    quiz_code = detail.get('Code')
+    content = detail.get('Content')
+    json_data = json.dumps(detail)  # Chuyển đổi thành JSON để lưu trữ dữ liệu đầy đủ của câu hỏi
+    
+    # Chèn chi tiết bài kiểm tra
+    insert_exam_detail(quiz_code, exam_code, created_time)
+    
+    # Chèn câu hỏi
+    # insert_quiz_by_sql(quiz_code, content, subject_code, json_data, created_time)
+    insert_quiz_by_api(quiz_code, content, subject_code, json_data)

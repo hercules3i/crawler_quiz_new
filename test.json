@@ -1,0 +1,228 @@
+{
+  "Id": 1,
+  "Order": "40",
+  "Duration": 10,
+  "Unit": "MINUTE",
+  "Mark": 10,
+  "Content": "ã‚ãŸã—",
+  "Solve": {
+    "Solver": "",
+    "SolveMedia": []
+  },
+  "QuestionMedia": [],
+  "Code": "9fd4a285-950b-11ef-83b9-d050992e7660",
+  "Type": "QUIZ_SING_CH",
+  "AnswerData": [
+    {
+      "Code": "5a152ce3-2792-4930-9c92-e8cc4201d3ed",
+      "Answer": "<span style=\"font-size: 15px\">a. TÃ´i</span>",
+      "Type": "Text",
+      "ContentDecode": "a. TÃ´i",
+      "IsAnswer": true
+    },
+    {
+      "Code": "9fa2fb47-cb8e-4da1-8501-b01cf9bd824a",
+      "Answer": "<span style=\"font-size: 15px\">b. ChÃºng tÃ´i</span>",
+      "Type": "Text",
+      "ContentDecode": "b. ChÃºng tÃ´i",
+      "IsAnswer": false
+    },
+    {
+      "Code": "aacce242-3797-426c-baa2-7959fcd61ac3",
+      "Answer": "<span style=\"font-size: 15px\">c. ChÃºng ta</span>",
+      "Type": "Text",
+      "ContentDecode": "c. ChÃºng ta",
+      "IsAnswer": false
+    },
+    {
+      "Code": "c8be6b8d-bdff-4e69-a43b-99e30600cbd0",
+      "Answer": "<span style=\"font-size: 15px\">d. Báº¡n</span>",
+      "Type": "Text",
+      "ContentDecode": "d. Báº¡n",
+      "IsAnswer": false
+    }
+  ],
+  "IdQuiz": 75,
+  "UserChoose": null,
+  "HAS_CORRECT_ANSWER": true
+}
+{
+  "name": "N1",
+  "url": "https://www.vnjpclub.com/500-cau-hoi-n1/"
+},
+{
+  "name": "N2",
+  "url": "https://www.vnjpclub.com/500-cau-hoi-n2/"
+},
+{
+  "name": "N3",
+  "url": "https://www.vnjpclub.com/500-cau-hoi-n3/"
+},
+{
+  "name": "N45",
+  "url": "https://www.vnjpclub.com/500-cau-hoi-n45/"
+}
+  [
+  {
+    "Icon": "",
+    "Cod": "A1",
+    "Ide": "M-3772c695-4a9b-41e2-8216-61870f47b435",
+    "Answer": "<p>れい</p>",
+    "IsAnswer": false,
+    "Column": 1,
+    "ContentDecode": "れい",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  },
+  {
+    "Id": "A2",
+    "Icon": "",
+    "Code": "M-ea863292-3e32-438e-84cb-f4aab7bfb92e",
+    "Answer": "<p>は</p>",
+    "IsAnswer": false,
+    "Column": 2,
+    "ContentDecode": "は",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  },
+  {
+    "Id": "A3",
+    "Icon": "",
+    "Code": "M-102e8a47-075d-46b7-a86e-4722813fcf5b",
+    "Answer": "<p>か</p>",
+    "IsAnswer": false,
+    "Column": 1,
+    "ContentDecode": "か",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  },
+  {
+    "Id": "A4",
+    "Icon": "",
+    "Code": "M-4f58ebb8-edaf-49e1-b50f-37dd37faa7f1",
+    "Answer": "<p>の</p>",
+    "IsAnswer": false,
+    "Column": 1,
+    "ContentDecode": "の",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  },
+  {
+    "Id": "A5",
+    "Icon": "",
+    "Code": "M-441b6905-1b3a-4b81-8870-cb01489abfbd",
+    "Answer": "<p>も</p>",
+    "IsAnswer": false,
+    "Column": 1,
+    "ContentDecode": "も",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  }
+]
+[
+  {
+    "Id": "A1",
+    "Icon": "",
+    "Code": "M-3772c695-4a9b-41e2-8216-61870f47b435",
+    "Answer": "<p>れい</p>",
+    "IsAnswer": false,
+    "Column": 1,
+    "ContentDecode": "れい",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  },
+  {
+    "Id": "A2",
+    "Icon": "",
+    "Code": "M-ea863292-3e32-438e-84cb-f4aab7bfb92e",
+    "Answer": "<p>は</p>",
+    "IsAnswer": false,
+    "Column": 2,
+    "ContentDecode": "は",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  },
+  {
+    "Id": "A3",
+    "Icon": "",
+    "Code": "M-102e8a47-075d-46b7-a86e-4722813fcf5b",
+    "Answer": "<p>か</p>",
+    "IsAnswer": false,
+    "Column": 1,
+    "ContentDecode": "か",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  },
+  {
+    "Id": "A4",
+    "Icon": "",
+    "Code": "M-4f58ebb8-edaf-49e1-b50f-37dd37faa7f1",
+    "Answer": "<p>の</p>",
+    "IsAnswer": false,
+    "Column": 1,
+    "ContentDecode": "の",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  },
+  {
+    "Id": "A5",
+    "Icon": "",
+    "Code": "M-441b6905-1b3a-4b81-8870-cb01489abfbd",
+    "Answer": "<p>も</p>",
+    "IsAnswer": false,
+    "Column": 1,
+    "ContentDecode": "も",
+    "Suggestion": "",
+    "Url": "",
+    "MimeType": "",
+    "Parent": "",
+    "Type": "",
+    "FileName": "",
+    "JsonCanvas": ""
+  }
+]

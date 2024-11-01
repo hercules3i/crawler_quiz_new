@@ -81,139 +81,90 @@ def handle_exam_detail_html(dir_path: str, exam_name: str, url: str):
     if content_detail:
         quizzes = []
         questions = [] 
-        tr_count = 0
+        tr_count =0
         div_tracnghiem_count = 0
         current_title = "Kiem tra tieng nhat vnjpclub"
         for child in content_detail:
-            
-            child_pq = pq(child)
-            if "tracnghiem" in str(child_pq) and child.tag == "div" and child_pq.attr("class") == "tracnghiem":
-                div_tracnghiem_count += 1
-                questions.append(child_pq)
-                number_question = child_pq('#question .bai_stt').text().strip().replace("問", "").strip()
+                child_pq = pq(child)
+                if "tracnghiem" in str(child_pq) and child.tag == "div" and child_pq.attr("class") == "tracnghiem":
+                    div_tracnghiem_count += 1
+                    if div_tracnghiem_count >= 0:
 
-                # Lấy nội dung câu hỏi
-                question = child_pq('#question b').text().strip()
-                answer_list = []
-                answers_doc = child_pq("#table_tracnghiem *")
-                # Duyệt qua từng hàng trong bảng
-                for index in range(1, 5): 
-                    tr_count += 1
-                    answer_text = answers_doc(f"tr#table_tracnghiem.tr{tr_count} span").text().strip()
-                    answer_text = " ".join(dict.fromkeys(answer_text.split()))
-                    answer_html = f'<span style="font-size: 15px">{answer_text}</span>'
-                    # Kiểm tra nếu thẻ span có id là result_correct_{index} có thẻ img
-                    result_correct_id = f"result_correct_{div_tracnghiem_count}{index}"
-                    is_answer = bool(answers_doc(f"tr.tr{tr_count} td span#{result_correct_id} img"))
-                    answer_list.append({
-                        'Code': str(uuid.uuid4()),  # Tạo UUID
-                        'Answer': answer_html,
-                        'Type': 'Text',
-                        'ContentDecode': answer_text,
-                        'IsAnswer': is_answer
-                    })
-                               # In ra danh sách đáp án
-                for answer in answer_list:
-                    print(answer)
-                
-                quiz = {
-                    'Id': len(quizzes) + 1,
-                    'Order': "40",
-                    'Duration': 10,
-                    'Unit': "MINUTE",
-                    'Mark': 10,
-                    'Content': question,
-                    'Solve': {
-                        'Solver': '',
-                        'SolveMedia': []
-                    },
-                    'QuestionMedia': [],
-                    'Code': uuid.uuid1(),
-                    'Type': 'QUIZ_SING_CH',
-                    'AnswerData': answer_list,
-                    'IdQuiz': 75,
-                    'UserChoose': None
-                }
-                quizzes.append(quiz)
+                        questions.append(child_pq)
+                        number_question = child_pq('#question .bai_stt').text().strip().replace("問", "").strip()
 
-        if len(quizzes) > 0:
-            store_as_json(
-                file_path,
-                current_title,
-                current_title,
-                exam_name,
-                quizzes
-            )
+                        # Lấy nội dung câu hỏi
+                        question = child_pq('#question b').text().strip()
+                        question_b = child_pq('#question p').text().strip()
+                        if question_b:
+                            question += f"\n{question_b}"
+                        # question = ''.join(['\\u{:04x}'.format(ord(c)) for c in question])
+                        answer_list = []
+                        
+                        answers_doc = child_pq("#table_tracnghiem *")
 
-    # for child in exam_contents:
-    #     quiz_doc = pq(child)
-    #     print(quiz_doc)
+                        for index in range(1, 5):
+                            tr_count += 1
+                            answer_text = answers_doc(f"tr#table_tracnghiem.tr{tr_count} span").text().strip()
+                            answer_text = " ".join(dict.fromkeys(answer_text.split()))
+                            print("answer_text",answer_text)
+                            # answer_text = ''.join(['\\u{:04x}'.format(ord(c)) for c in answer_text])
+                            if answer_text == "":
+                                tr_count -= 1
+                            print("answer_text_encode",answer_text)
+                            answer_html = f'<span style="font-size: 15px">{answer_text}</span>'
+                            
+                            # Kiểm tra nếu thẻ span có id là result_correct_{index} có thẻ img
+                            result_correct_id = f"result_correct_{div_tracnghiem_count}{index}"
+                            is_answer = bool(answers_doc(f"tr.tr{tr_count} td span#{result_correct_id} img"))
+                            answer_list.append({
+                                'Code': str(uuid.uuid4()),  # Tạo UUID
+                                'Answer': answer_html,
+                                'Type': 'Text',
+                                'ContentDecode': answer_text,
+                                'IsAnswer': is_answer
+                            })
+                                    # In ra danh sách đáp án
+                        for answer in answer_list:
+                            print(answer)
+                        
+                        quiz = {
+                            'Id': len(quizzes) + 1,
+                            'Order': "40",
+                            'Duration': 10,
+                            'Unit': "MINUTE",
+                            'Mark': 10,
+                            'Content': question,
+                            'Solve': {
+                                'Solver': '',
+                                'SolveMedia': []
+                            },
+                            'QuestionMedia': [],
+                            'Code': uuid.uuid1(),
+                            'Type': 'QUIZ_SING_CH',
+                            'AnswerData': answer_list,
+                            'IdQuiz': 75,
+                            'UserChoose': None,
+                            'HAS_CORRECT_ANSWER': True
+                            
+                        }
+                        quizzes.append(quiz)
 
-    #     if tag_name == 'table' and quiz_doc.hasClass('jp'):
-    #         title = quiz_doc('tbody tr td')
-    #         current_title = title.text()
-    #         current_title_html = title.html()
-
-    #     if class_name == 'clearfix chanle cauhoi-wrap':
-    #         if current_title:
-    #             # Lấy câu hỏi
-    #             question = quiz_doc.find('.cauhoi').html()  # Giữ nguyên thẻ HTML
-    #             question = current_title_html + '<br />' + question
-
-    #             # Lấy đáp án
-    #             answers = quiz_doc.find('.answer')
-    #             answer_list = []
-
-    #             for answer in answers:
-    #                 answer_html = pq(answer).parent().html()
-    #                 answer_text = pq(answer).text()
-    #                 answer_class = pq(answer).attr('class')
-    #                 is_answer = 'd' in answer_class
-
-    #                 answer_list.append({
-    #                     'Code': uuid.uuid4(),  # Tạo UUID
-    #                     'Answer': answer_html,
-    #                     'Type': 'Text',
-    #                     'ContentDecode': answer_text,
-    #                     'IsAnswer': is_answer
-    #                 })
-
-    #             # Lưu vào object (dictionary)
-    #             quiz = {
-    #                 'Id': len(quizzes) + 1,
-    #                 'Order': "40",
-    #                 'Duration': 10,
-    #                 'Unit': "MINUTE",
-    #                 'Mark': 10,
-    #                 'Content': question,
-    #                 'Solve': {
-    #                     'Solver': '',
-    #                     'SolveMedia': []
-    #                 },
-    #                 'QuestionMedia': [],
-    #                 'Code': uuid.uuid1(),
-    #                 'Type': 'QUIZ_SING_CH',
-    #                 'AnswerData': answer_list,
-    #                 'IdQuiz': 75,
-    #                 'UserChoose': None
-    #             }
-    #             quizzes.append(quiz)
-
-    # if len(quizzes) > 0:
-    #     store_as_json(
-    #         file_path,
-    #         current_title,
-    #         current_title,
-    #         exam_name,
-    #         quizzes
-    #     )
+                if len(quizzes) > 0:
+                    store_as_json(
+                        file_path,
+                        current_title,
+                        current_title,
+                        exam_name,
+                        quizzes
+                    )
 
 
 def store_as_json(path: str, subject_name: str, title: str, exam_name: str, quizzes):
     print('Start store json file ', path)
 
     # Lưu dữ liệu vào file JSON
-    with open(path, 'w', encoding='utf-8') as f:
+    with open(path, 'w', encoding='utf-16') as f:
         json.dump(
             {
                 'ID': None,

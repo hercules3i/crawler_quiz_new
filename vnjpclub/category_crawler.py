@@ -95,5 +95,13 @@ def handle_category_html(name: str, html_str: str):
                 "name": el.text(),
                 "url": _url
             })
+        if el.is_('a') and 'Tuần' in el.text():
+            print(f"Text: {el.text()}, Href: {el.attr('href')}")
+            url = el.attr('href')
+            _url = "https://www.vnjpclub.com" + url
+            list_exams.append({
+                "name": el.text(),
+                "url": _url
+            })
     print(list_exams)
     store_as_json(dest_path,name,list_exams)

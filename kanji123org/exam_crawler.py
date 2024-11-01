@@ -184,6 +184,7 @@ def store_as_json(path: str, subject_name: str, title: str, exam_name: str, quiz
                     'details': quizzes
                 },
                 'Code': uuid.uuid4(),
+                'HAS_CORRECT_ANSWER': True
             },
             f,
             ensure_ascii=False,

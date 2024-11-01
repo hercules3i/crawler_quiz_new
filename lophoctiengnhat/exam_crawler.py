@@ -123,7 +123,7 @@ def store_as_json(path: str, subject_name: str, title: str, exam_name: str, quiz
     print('Start store json file ', path)
 
     # Lưu dữ liệu vào file JSON
-    with open(path, 'w', encoding='utf-8') as f:
+    with open(path, 'w', encoding='utf-16') as f:
         json.dump(
             {
                 'ID': None,
