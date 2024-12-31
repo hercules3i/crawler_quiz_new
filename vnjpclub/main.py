@@ -7,4 +7,4 @@ if __name__ == '__main__':
     # category_list_url = "https://m.lophoctiengnhat.com/de-thi-tieng-nhat-cac-cap-do-n5-n4-n3-n2-n1.html"
 
     exam_all_crawler()
-    # crawl_all_category()
+    #crawl_all_category()
