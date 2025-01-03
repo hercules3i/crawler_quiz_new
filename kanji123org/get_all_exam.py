@@ -1,6 +1,8 @@
 import os
 import glob
 import json
+from time import sleep
+import requests
 from exam_crawler import handle_exam_detail_html
 from utils import convert_to_filename, makedir_if_not_exist
 
